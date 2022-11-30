@@ -11,14 +11,14 @@ import Favorites from "./pages/Favorites";
 
 const App = () => {
   return (
-    <Router className="font-iranyekan">
+    <Router>
       <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/products/:id" element={<Products />} />
-        <Route path="/category" element={<Category />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/favorites" element={<Favorites />} />
+        <Route path="products/:id" element={<Products />} />
+        <Route path="category" element={<Category />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="favorites" element={<Favorites />} />
       </Routes>
       <Footer />
     </Router>

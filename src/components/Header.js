@@ -8,7 +8,7 @@ import logoDesk from "../assets/images/logo//Logo-laptop.png";
 
 const Header = () => {
   return (
-    <header className="mx-auto max-w-screen-3xl bg-stone-100 px-[5%] py-6 text-xl font-bold text-slate-800 md:bg-stone-50 md:text-sm md:shadow-md">
+    <header className="px-[5%] py-6 text-xl font-bold text-slate-800 md:mb-5 md:bg-white md:text-sm md:shadow-md">
       <section className="flex items-center justify-between md:hidden">
         <Link to="/">
           <img src={logo} alt="Digitize" />

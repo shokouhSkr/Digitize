@@ -8,12 +8,12 @@ const SearchBox = () => {
         <img src={search} alt="search" />
       </div>
 
-      <div className="hidden w-2/5 rounded-[4px] bg-gray-200 md:flex">
+      <div className="hidden w-2/5 rounded-[4px] bg-stone-100 md:flex">
         <img src={search} alt="search" class="p-3" />
         <input
           type="search"
           placeholder="جستجوی نام محصول، نام برند، و..."
-          className="w-full rounded-[4px] bg-gray-200 pl-2 text-sm font-normal focus:outline-none"
+          className="w-full rounded-[4px] bg-stone-100 pl-2 text-sm font-normal focus:outline-none"
         />
       </div>
     </>
