@@ -1,7 +1,7 @@
 import React from "react";
 
 const Favorites = () => {
-  return <div>Favorite</div>;
+  return <section className="mx-auto"></section>;
 };
 
 export default Favorites;

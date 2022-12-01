@@ -1,11 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import SearchBox from "../components/SearchBox";
-
 import logo from "../assets/images/logo/Logo-phone.png";
 import logoDesk from "../assets/images/logo//Logo-laptop.png";
-
 import { productsCategories } from "../data";
 
 const Header = () => {

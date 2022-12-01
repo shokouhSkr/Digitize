@@ -1,10 +1,14 @@
 import React from "react";
 import CartItems from "../components/Cart/CartItems";
-import Price from "../components/Cart/Price";
-import ShoppingButton from "../components/Cart/ShoppingButton";
+import Checkout from "../components/Cart/Checkout";
 
 const Cart = () => {
-  return <div>Cart</div>;
+  return (
+    <section className="mb-20 justify-between gap-5 px-[5%] md:flex">
+      <CartItems />
+      <Checkout />
+    </section>
+  );
 };
 
 export default Cart;
