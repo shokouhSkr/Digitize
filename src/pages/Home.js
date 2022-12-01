@@ -2,7 +2,7 @@ import React from "react";
 
 import Filter from "../components/Filter";
 import Products from "./Products";
-import Sidebar from "../components/Sidebar.js";
+import Sidebar from "../components/Sidebar/Sidebar";
 
 const Home = () => {
   return (
