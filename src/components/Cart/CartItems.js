@@ -6,6 +6,7 @@ const CartItems = () => {
     <section className="mb-8 h-2/3 overflow-scroll md:basis-3/5">
       <SingleCartItem />
       <SingleCartItem />
+      <SingleCartItem />
     </section>
   );
 };
