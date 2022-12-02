@@ -10,10 +10,15 @@ import productImg from "./assets/images/products/image 8.png";
 import smartwatchImg from "./assets/images/products/smartwatch.png";
 import smartwatchImg2 from "./assets/images/products/smartwatch2.png";
 
+import apple from "./assets/images/brands-logo/apple.svg";
+import asus from "./assets/images/brands-logo/asus.svg";
+import lenovo from "./assets/images/brands-logo/lenovo.svg";
+import xiaomi from "./assets/images/brands-logo/image 23.svg";
+
 export const links = [
   {
     id: 1,
-    url: "/home",
+    url: "/",
     title: "خانه",
     icon: `${home}`,
   },
@@ -41,22 +46,17 @@ export const brands = [
   {
     id: 11,
     title: "اپل",
-    // image:`${}`
+    image: `${apple}`,
   },
   {
     id: 22,
     title: "شیائومی",
-    // image:`${}`
+    image: `${xiaomi}`,
   },
   {
     id: 33,
     title: "ایسوس",
-    // image:`${}`
-  },
-  {
-    id: 33,
-    title: "لنووو",
-    // image:`${}`
+    image: `${asus}`,
   },
 ];
 
