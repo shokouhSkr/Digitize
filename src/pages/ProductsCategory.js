@@ -1,12 +1,12 @@
 import React from "react";
-import BrandCategory from "../components/Category/BrandCategory.js";
+import BrandsCategory from "../components/Category/BrandsCategory.js";
 
 const ProductsCategory = () => {
   return (
     <section className="mb-20">
-      <BrandCategory />
-      <BrandCategory />
-      <BrandCategory />
+      <BrandsCategory />
+      <BrandsCategory />
+      <BrandsCategory />
     </section>
   );
 };

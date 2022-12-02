@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import phoneImg from ".././../assets/images/products/phone.png";
 import { brands } from "../../data";
 
-const BrandCategory = () => {
+const BrandsCategory = () => {
   return (
     <section className="relative mt-8 mb-6 justify-between md:hidden">
       {/* products category */}
@@ -34,4 +34,4 @@ const BrandCategory = () => {
   );
 };
 
-export default BrandCategory;
+export default BrandsCategory;
