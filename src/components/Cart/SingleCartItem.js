@@ -15,7 +15,7 @@ const SingleCartItem = () => {
       </div>
 
       <div className="flex flex-col justify-between py-1">
-        <div className="flex justify-end">
+        <div className="flex justify-end" onClick={() => console.log("hi! you deleted me")}>
           <img src={close} alt="" className="w-3" />
         </div>
         <div className="flex items-center gap-1">

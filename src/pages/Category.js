@@ -3,7 +3,7 @@ import BrandsCategory from "../components/Category/BrandsCategory.js";
 
 const ProductsCategory = () => {
   return (
-    <section className="mb-20">
+    <section className="mb-20 mt-28">
       <BrandsCategory />
       <BrandsCategory />
       <BrandsCategory />

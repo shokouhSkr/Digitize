@@ -5,7 +5,6 @@ const SidebarFilter = () => {
   return (
     <div>
       <span>فیلتر</span>
-      {}
     </div>
   );
 };

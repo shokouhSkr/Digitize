@@ -4,7 +4,7 @@ import leftArrow from "../assets/images/icons/Arrow---Left-2.svg";
 
 const BreadCrumbs = () => {
   return (
-    <div className="w-full items-center gap-[3%] rounded-md bg-transparent p-3 pt-0 text-xs font-normal text-gray-300 md:flex md:bg-white md:pt-3 lg:text-sm">
+    <div className="mb-6 w-full items-center gap-[3%] rounded-md bg-transparent text-xs font-normal text-gray-300 md:flex md:bg-white md:p-3 lg:text-sm">
       <div className="flex items-baseline gap-2">
         <Link className="text-red-400">تلفن همراه</Link>
         <img src={leftArrow} alt="" />
