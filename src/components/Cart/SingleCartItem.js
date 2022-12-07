@@ -1,8 +1,11 @@
 import React from "react";
 import close from "../../assets/images/icons/close.svg";
 import { products } from "../../data";
+import { useGlobalContext } from "../../store/context";
 
 const SingleCartItem = () => {
+  const { removeItem } = useGlobalContext();
+
   return (
     <section className="mb-3 flex justify-between rounded-md bg-white p-3 text-sm shadow md:mb-0">
       <div className="flex gap-2">
@@ -15,7 +18,7 @@ const SingleCartItem = () => {
       </div>
 
       <div className="flex flex-col justify-between py-1">
-        <div className="flex justify-end" onClick={() => console.log("hi! you deleted me")}>
+        <div className="flex justify-end" onClick={() => removeItem(products[0].id)}>
           <img src={close} alt="" className="w-3" />
         </div>
         <div className="flex items-center gap-1">
