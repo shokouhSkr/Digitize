@@ -2,7 +2,7 @@ import React, { useReducer, useContext, useEffect } from "react";
 import { products } from "../data.js";
 
 const initialState = {
-  cartItems: products,
+  cartItems: [],
   totalAmount: 0,
 };
 
